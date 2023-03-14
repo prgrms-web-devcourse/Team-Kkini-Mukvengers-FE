@@ -34,7 +34,7 @@ const SearchRestaurantDrawer = () => {
         border-top-right-radius: 8px;
         transform: ${foodPartyCreateDrawerOpen
           ? 'translateY(120px)'
-          : 'translateY(720px)'};
+          : 'translateY(800px)'};
         animation: 0.5s ease-in-out
           ${foodPartyCreateDrawerOpen ? 'openModal' : 'closeModal'};
         @keyframes openModal {
